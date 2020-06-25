@@ -1,0 +1,28 @@
+.main {
+    margin:auto;
+    max-width: 800px; /* The width is 20%, by default */
+    background-color: red;
+    height: 300px;  
+}
+
+.main {
+    float: left;
+    width: 60%; /* The width is 60%, by default */
+    background-color: purple;
+}
+
+/* Use a media query to add a breakpoint at 800px: */
+@media screen and (max-width:800px)
+{
+    .left, .main, .right{
+        width: 100%; /* The w idth is 100%, when the viewpoint is 800px or smaller */
+    }
+}
+
+.header {
+  padding: 60px;
+  text-align: center;
+  background: white;
+  color: white;
+  font-size: 30px;
+}
