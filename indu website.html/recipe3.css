@@ -59,6 +59,24 @@ header
     font-size: 40px;
     margin: 25px;
 }
+.welcome{
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin: 5px;
+    padding: 7px 10px;
+    text-decoration: none;
+    border: 1px solid:black;
+}
+.welcome{
+    background: #fff;
+    color: #000;
+}
+.welcome 1 a:hover{
+    background: #fff;
+    transition: .4s;
+    color: #000;
+}
+
 
 
 
